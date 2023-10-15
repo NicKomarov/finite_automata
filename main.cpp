@@ -98,38 +98,5 @@ int main()
     else
         cout << "The automata can NOT accept words w = w1w0w2\n";
 
-    /*cout << "alphabetSize = " << alphabetSize << '\n';
-    cout << "stateCount = " << stateCount << '\n';
-    cout << "s0 = " << s0 << '\n';
-
-    for (int i : finalStates)
-    {
-        cout << i << " ";
-    }
-    cout << '\n';
-
-    for (auto v : transition)
-    {
-        for (int i : v)
-        {
-            cout << i << " ";
-        }
-        cout << '\n';
-    }
-
-    string w = "aabb";
-    cout << ProcessWord(s0, w, transition);
-
-    vector<bool> visited(stateCount, false);
-
-    dfs(3, alphabetSize, transition, visited);
-    for (bool i : visited)
-        cout << i << " ";
-
-    string w1 = "aa";
-    string w2 = "ba";
-
-    cout << IsAcceptedByAutomata(s0, w1, w2, alphabetSize, stateCount, finalStates, transition);*/
-
     return 0;
 }
